@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="pa.iscde.javaTasks.ext" name="JavaTasks" schema="schema/pa.iscde.javaTasks.ext.exsd"/>
+   <extension
+         id="javaTasks"
+         name="JavaTasks"
+         point="pt.iscte.pidesco.view">
+      <view
+            class="pa.iscde.javaTasks.JavaTasksView"
+            icon="smiley.png">
+      </view>
+   </extension>
+
+</plugin>
